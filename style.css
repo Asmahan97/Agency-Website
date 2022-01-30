@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    margin: 0px;
+    box-sizing: border-box; /*content box will shrink to allow room for padding and borders.*/
+}
+
+nav {
+    display: flex; /*so logo and links are side by side*/
+    justify-content: space-around; /*spaces nav and links apart, on opposite sides*/
+    align-items: center; /*center items vertically*/
+    min-height: 8vh;
+    background-color: #22223b;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.logo {
+    color: #f2e9e4;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 22px;
+}
+
+.nav-links {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 16px;
+    list-style: none; /*remove bullet points*/
+    color: #f2e9e4;
+}
